@@ -1,0 +1,11 @@
+#! /bin/bash
+
+cd ~/Library/Android/sdk/platform=tools
+./adb devices
+./adb tcpip 4444
+echo 'export PATH="$PATH:~/Library/Android/sdk/platform-tools/"' >> ~/.bash_profile
+source ~/.bash_profile
+echo "entre com: adb <seuIP>:4444"
+echo "remova o cabo do dispositivo"
+echo "todo pronto, se ocorreu bem"
+Finder
