@@ -1,0 +1,10 @@
+#! /bin/bash
+echo 'export PATH="$PATH:~/Android/Sdk/platform-tools/"' >> ~/.bashrc
+source ~/.bashrc
+
+adb devices
+adb tcpip 4444
+echo " entre com seu ip com o comando:"
+echo "adb <seuIP>:4444"
+echo " se tudo ocorrer bem, apo´s isso podes remover o cabo"
+
