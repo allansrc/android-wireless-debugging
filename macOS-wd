@@ -1,6 +1,6 @@
 #! /bin/bash
 
-cd ~/Library/Android/sdk/platform=tools
+cd ~/Library/Android/sdk/platform-tools
 ./adb devices
 ./adb tcpip 4444
 echo 'export PATH="$PATH:~/Library/Android/sdk/platform-tools/"' >> ~/.bash_profile
